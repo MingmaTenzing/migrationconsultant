@@ -1,3 +1,4 @@
+import Nav from "../../components/Nav";
 import "./globals.css";
 import { DM_Sans } from "next/font/google";
 
@@ -18,7 +19,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={DMSANS.className}>{children}</body>
+      
+      <body className={DMSANS.className}>
+       
+      <Nav />
+        <div className=" bg-[#f6f6f6]">
+        
+        {children}</div>
+      </body>
     </html>
   );
 }
