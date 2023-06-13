@@ -3,13 +3,13 @@ import { GlobeAsiaAustraliaIcon, LightBulbIcon, PaperAirplaneIcon, TagIcon } fro
 type Props = {};
 function Services({}: Props) {
   return (
-    <div className=" p-4">
-      <div className=" flex flex-col  items-center">
+    <div className=" mt-6 p-4">
+      <div className=" flex flex-col  space-y-3 items-center">
         <h3 className=" text-bluestyle">My Services</h3>
         <h2 className=" text-3xl md:text-4xl">I'm Available For Hire</h2>
       </div>
 
-      <div className=" flex flex-col items-center md:flex-row md:flex-wrap md:justify-center ">
+      <div className=" mt-4 flex flex-col items-center md:flex-row md:flex-wrap md:justify-center ">
 
         
       <div className=" cursor-pointer group m-4 hover:bg-bluestyle transition-all ease-linear duration-200 space-y-3 rounded-lg p-4 flex flex-col items-center justify-center text-center h-[300px]  border w-[300px]">
