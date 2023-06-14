@@ -6,13 +6,13 @@ function Connect({}: Props) {
   return (
     <main className=" mt-10">
       <div className=" p-4 md:p-8 md:flex md:items-center md:justify-center md:space-x-4">
-        <div>
+        <div className=" mb-4 md:mb-0">
           <Image
             src={carlos}
             width={600}
             height={712}
             alt=" Carlos Charlie Castro Profile Picture"
-            className=" w-[400px]"
+            className="  w-[400px] lg:w-[500px]"
           />
         </div>
         <div className=" space-y-4 md:w-[600px]">
