@@ -1,7 +1,11 @@
 type Props = {};
 function Experience({}: Props) {
   return (
-    <div className=" mt-6 space-y-10 lg:space-y-0 lg:flex lg:space-x-8 lg:w-[1200px] lg:items-start md:w-2/3 m-auto p-4 lg:p-8">
+    <main className="mt-10 bg-[#202020] text-white">
+
+
+
+    <div className="   space-y-10 lg:space-y-0 lg:flex lg:space-x-8 lg:w-[1200px] lg:items-start md:w-2/3 m-auto p-4 lg:p-16">
       <div className="  lg:w-1/2  ">
         <h2 className="  mb-6 text-2xl md:text-3xl font-semibold">Experiences</h2>
 
@@ -122,25 +126,11 @@ function Experience({}: Props) {
             </p>
           </div>
 
-          <div className=" space-y-5">
-            <span className=" p-2 border-blue-400 text-sm font-semibold border-2 text-blue-400    uppercase">
-              FEB 2019 - APR 2019
-            </span>
-            <h3 className="  text-xl font-semibold">
-              Senior Education Consultant-{" "}
-              <span className=" font-light">
-                ANZ Education and Visa Service
-              </span>
-            </h3>
-            <p>
-              Providing education counseling for international students to
-              ensure the most appropriate course selection according to their
-              need and future career.
-            </p>
-          </div>
+         
         </div>
       </div>
     </div>
+    </main>
   );
 }
 export default Experience;
