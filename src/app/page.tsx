@@ -7,14 +7,18 @@ import Experience from "../../components/Experience";
 import Connect from "../../components/Connect";
 import Socials from "../../components/Socials";
 import OtherSocials from "../../components/OtherSocials";
+import ConnectingClients from "../../components/ConnectingClients";
+
 export default function Home() {
   return (
     <main>
       <Hero />
       <AboutMe />
       <Services />
-      <Experience />
+      <ConnectingClients />
+   
       <Connect />
+      <Experience />
       <Socials />
       <OtherSocials />
     </main>
