@@ -5,12 +5,12 @@ type Props = {};
 function Socials({}: Props) {
   return (
     <div className=" p-4 md:p-10 mt-10">
-      <div className=" lg:w-[1200px] m-auto lg:space-x-10 md:flex-row  md:items-center flex flex-col items-center space-y-4 ">
+      <div className=" lg:w-[1200px] m-auto lg:space-x-10 md:flex-row  md:items-center flex flex-col items-center space-y-4 lg:space-y-0 ">
         <div className=" space-y-4">
-          <h3 className=" flex items-center font-bold text-2xl md:text-3xl lg:text-4xl">
+          <h2 className=" flex items-center font-bold text-2xl md:text-3xl lg:text-4xl">
             Follow me on TikTok !!
             <span><Image src={tiktok} alt="TikTok logo" className=" ml-4 w-10" /></span>
-          </h3>
+          </h2>
           <p className="md:hidden">
             🌍 Stay up to date on migration news and student visa updates!
             Follow me on TikTok [@charlieshun] for the latest information, tips,

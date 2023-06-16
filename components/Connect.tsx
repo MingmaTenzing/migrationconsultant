@@ -5,7 +5,7 @@ type Props = {};
 function Connect({}: Props) {
   return (
     <main className=" mt-10">
-      <div className=" p-4 md:p-8 md:flex md:items-center md:justify-center md:space-x-4">
+      <div className=" p-4 md:p-0 md:px-8 md:flex md:items-center md:justify-center md:space-x-4">
         <div className=" mb-4 md:mb-0">
           <Image
             src={carlos}

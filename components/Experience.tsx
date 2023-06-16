@@ -1,11 +1,11 @@
 type Props = {};
 function Experience({}: Props) {
   return (
-    <main className="mt-10 bg-[#202020] text-white">
+    <main className=" bg-[#202020] text-white">
 
 
 
-    <div className="   space-y-10 lg:space-y-0 lg:flex lg:space-x-8 lg:w-[1200px] lg:items-start md:w-2/3 m-auto p-4 lg:p-16">
+    <div className="  py-10   space-y-10 lg:space-y-0 lg:flex lg:space-x-8 lg:w-[1200px] lg:items-start md:w-2/3 m-auto p-4 lg:p-16">
       <div className="  lg:w-1/2  ">
         <h2 className="  mb-6 text-2xl md:text-3xl font-semibold">Experiences</h2>
 
