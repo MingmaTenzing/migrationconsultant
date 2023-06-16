@@ -2,7 +2,7 @@ import { InstagramEmbed } from "react-social-media-embed";
 import {
   TwitterEmbed,
   YouTubeEmbed,
-  LinkedInEmbed,
+  FacebookEmbed,
 } from "react-social-media-embed";
 
 type Props = {};
@@ -38,13 +38,16 @@ function OtherSocials({}: Props) {
             height={600}
           />
         </div>
+
         <div className=" m-4">
-          <LinkedInEmbed
-            url="https://www.linkedin.com/feed/update/urn:li:activity:6971799756457086976/"
+          <FacebookEmbed
+            url="https://www.facebook.com/bigbrotherau/photos/a.124512235622552/492719402135165/"
             width={325}
             height={600}
+        
           />
         </div>
+       
       </div>
     </div>
   );
