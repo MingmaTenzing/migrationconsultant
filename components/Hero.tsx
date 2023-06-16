@@ -11,7 +11,7 @@ function Hero({}: Props) {
     <main className="   lg:w-[1200px] m-auto lg:flex  lg:items-center pt-[130px] md:px-10 md:pt-[160px] lg:py-0 lg:pt-20 px-4 bg-[#f6f6f6]">
       <div className=" space-y-3 md:space-y-6">
         <h1 className=" font-semibold md:text-xl "> Carlos Castro</h1>
-        <h2 className=" font-bold text-4xl md:text-5xl">
+        <h2 className=" h-[80px] md:h-auto font-bold text-4xl md:text-5xl">
           I'm a
           <span className="  text-bluestyle ml-3">
             <Typewriter
