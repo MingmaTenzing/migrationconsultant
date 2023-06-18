@@ -16,9 +16,9 @@ function Nav({}: Props) {
         <Bars3Icon  className="w-6 lg:hidden" />
         <div className=" hidden lg:flex   space-x-8">
 
-        <Link href="" className=" hover:text-blue-400">Home </Link>
+        <Link href="/" className=" hover:text-blue-400">Home </Link>
         <Link href="" className=" hover:text-blue-400">About </Link>
-        <Link href="" className=" hover:text-blue-400">Contact </Link>
+        <Link href="/contact" className=" hover:text-blue-400">Contact </Link>
         <Link href="" className=" hover:text-blue-400">Blog </Link>
         </div>
 

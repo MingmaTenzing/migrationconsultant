@@ -14,7 +14,7 @@ function OtherSocials({}: Props) {
         Other Socials
       </h2>
 
-      <div className="  flex flex-col items-center md:flex-row md:flex-wrap md:items-start">
+      <div className=" flex flex-col items-center md:flex-row md:flex-wrap md:items-start">
         <div className=" m-4">
           <InstagramEmbed
             url="https://www.instagram.com/p/CqVBLH9OWUk/?hl=en"

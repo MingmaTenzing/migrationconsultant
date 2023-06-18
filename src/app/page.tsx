@@ -11,7 +11,7 @@ import ConnectingClients from "../../components/ConnectingClients";
 
 export default function Home() {
   return (
-    <main>
+    <main className="  overflow-x-hidden">
       <Hero />
       <AboutMe />
       <Services />
